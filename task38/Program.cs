@@ -17,8 +17,9 @@ for (int i = 1; i <= arr.Length; i++)
         sum = sum + arr[i];
         Console.WriteLine($"ЭЛЕМЕНТ МАССИВА С ОТРИЦАТЕЛЬНЫМ ИНДЕКСОМ: {arr[i]}");
 
-        Console.WriteLine($"Сумма элементов:{sum}");
+        
     }
 
 
 }
+Console.WriteLine($"Сумма элементов:{sum}");
