@@ -1,6 +1,6 @@
 ﻿//Задача№40. В Указанном массиве вещественных чисел найдите разницу между максимальным и минимальным элементом
 
-double[] arr = new double[5];
+double[] arr = new double[10];
 Random myRandom = new Random();
 for (int i = 0; i < arr.Length; i++)
 {
